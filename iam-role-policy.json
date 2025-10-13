@@ -1,0 +1,31 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "s3:PutObject",
+      "Resource": "arn:aws:s3:::vpc-flow-logs-bucket-574026741766-ap-south-1/*",
+      "Condition": {
+        "StringEquals": {
+          "aws:SourceAccount": "574026741766"
+        },
+        "ArnLike": {
+          "aws:SourceArn": "arn:aws:logs:ap-south-1:574026741766:log-group:/aws/vpc/flow-logs/*"
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": "s3:GetBucketAcl",
+      "Resource": "arn:aws:s3:::vpc-flow-logs-bucket-574026741766-ap-south-1",
+      "Condition": {
+        "StringEquals": {
+          "aws:SourceAccount": "574026741766"
+        },
+        "ArnLike": {
+          "aws:SourceArn": "arn:aws:logs:ap-south-1:574026741766:log-group:/aws/vpc/flow-logs/*"
+        }
+      }
+    }
+  ]
+}
