@@ -82,10 +82,20 @@ To capture and store VPC network traffic logs (accepted and rejected) into an S3
 
 - ✅ IAM role JSON policy and trust relationship
 - ✅ S3 bucket configuration (policy JSON)
+
+  <img width="1913" height="863" alt="S3 Bucket Configuration" src="https://github.com/user-attachments/assets/d2548aa6-f64f-4b60-a595-d9cb89ebd5d4" />
+
 - ✅ Screenshot showing Flow Log configuration
+
+  <img width="1912" height="862" alt="Screenshot Showing Flow Log Configuration" src="https://github.com/user-attachments/assets/d9fbb554-8de5-4aaa-a6df-93786b4d9799" />
+
 - ✅ Screenshot of logs appearing in the S3 bucket
+
+  <img width="1904" height="862" alt="Screenshot of Logs Appearing in the S3 Bucket" src="https://github.com/user-attachments/assets/ba4ac4df-1dcb-4126-836f-ec4923370a89" />
+
 - ✅ Sample log line explained
 - ✅ This README.md report
+
 
 
 
