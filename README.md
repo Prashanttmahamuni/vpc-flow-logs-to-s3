@@ -94,7 +94,7 @@ To capture and store VPC network traffic logs (accepted and rejected) into an S3
   <img width="1904" height="862" alt="Screenshot of Logs Appearing in the S3 Bucket" src="https://github.com/user-attachments/assets/ba4ac4df-1dcb-4126-836f-ec4923370a89" />
 
 - ✅ Sample log line explained
-- ✅ This README.md report
+
 
 
 
