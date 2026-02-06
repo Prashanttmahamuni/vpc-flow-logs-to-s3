@@ -1,7 +1,7 @@
 # 🛠️ VPC Flow Logs to S3 Setup
 
 This project demonstrates how to configure AWS VPC Flow Logs to capture accepted and rejected network traffic and store the logs in an Amazon S3 bucket using a custom IAM role. The setup supports security auditing, network troubleshooting, and performance monitoring.
-  
+      
 ---    
   
 ## 🎯 Objective  
@@ -94,6 +94,7 @@ To capture and store VPC network traffic logs (accepted and rejected) into an S3
   <img width="1904" height="862" alt="Screenshot of Logs Appearing in the S3 Bucket" src="https://github.com/user-attachments/assets/ba4ac4df-1dcb-4126-836f-ec4923370a89" />
 
 - ✅ Sample log line explained
+
 
 
 
