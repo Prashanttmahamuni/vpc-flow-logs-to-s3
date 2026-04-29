@@ -4,7 +4,7 @@ This project demonstrates how to configure AWS VPC Flow Logs to capture accepted
                                                                                                                 
                         ---                                                                                                                                                                                                                                                                                                                                              
                                                 
-## 🎯 Objective          
+## 🎯 Objective                  
       
 To capture and store VPC network traffic logs (accepted and rejected) into an S3 bucket using an IAM role with least-privilege access.
   
