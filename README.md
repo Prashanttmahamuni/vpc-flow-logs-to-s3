@@ -15,7 +15,7 @@ To capture and store VPC network traffic logs (accepted and rejected) into an S3
 - Blocked public access   
 - Added bucket policy to allow VPC Flow Logs service to write objects            
             
-### Step 2: Create IAM Role   
+### Step 2: Create IAM Role      
 - Role name: `VPCFlowLogsToS3Role`
 - Trust entity: `vpc-flow-logs.amazonaws.com`
 - Attached inline policy with `s3:PutObject` and `s3:GetBucketAcl` permissions
