@@ -10,7 +10,7 @@ To capture and store VPC network traffic logs (accepted and rejected) into an S3
 ## 📋 Setup Steps
 
 ### Step 1: Create an S3 Bucket
-- Bucket name: `vpc-flow-logs-bucket-574026741766-ap-south-1`   
+- Bucket name: `vpc-flow-logs-bucket-574026741766-ap-south-1`      
 - Region: `ap-south-1`
 - Blocked public access
 - Added bucket policy to allow VPC Flow Logs service to write objects
