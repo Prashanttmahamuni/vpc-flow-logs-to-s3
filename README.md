@@ -22,7 +22,7 @@ To capture and store VPC network traffic logs (accepted and rejected) into an S3
 
 ### Step 3: Enable VPC Flow Logs
 - Selected VPC: `<your-vpc-id>`
-- Traffic type: `All`
+- Traffic type: `All`   
 - Destination: `S3`
 - IAM role: `VPCFlowLogsToS3Role`
 - Prefix path: `574026741766/ap-south-1/<vpc-id>/`
